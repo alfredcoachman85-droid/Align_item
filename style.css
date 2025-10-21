@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.LeftAlign{
+    border: 5px solid;
+    border-color: blue;
+    float: left;
+    height: 25px;
+    width: 33%;
+}
+.CenterAlign{
+    border: 5px solid;
+    border-color: red;
+    float: center;
+    height: 25px;
+    width: 33%;
+}
+.RightAlign{
+    border: 5px solid;
+    border-color blue;
+    float: right;
+    height: 25px;
+    width: 33%;
+}
