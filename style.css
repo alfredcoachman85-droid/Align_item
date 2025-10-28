@@ -2,25 +2,29 @@ body{
     background-color: black;
     color: white;
 }
-
+.conatiner{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
 .LeftAlign{
     border: 5px solid;
     border-color: blue;
     float: left;
-    height: 25px;
-    width: 33%;
+    height: 50px;
+    width: 66%;
 }
 .CenterAlign{
     border: 5px solid;
     border-color: red;
     float: center;
-    height: 25px;
-    width: 33%;
+    height: 50px;
+    width: 66%;
 }
 .RightAlign{
     border: 5px solid;
-    border-color blue;
+    border-color: green;
     float: right;
-    height: 25px;
-    width: 33%;
+    height: 50px;
+    width: 66%;
 }
