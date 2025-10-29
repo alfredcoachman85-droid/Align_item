@@ -3,28 +3,25 @@ body{
     color: white;
 }
 .conatiner{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      width: 100%;
+      overflow: hidden;
+}
+.box {
+   float: left;
+   width: 33.33%;
+   padding: 15px;
+   color: white;
+   box-sizing: border-box; 
 }
 .LeftAlign{
-    border: 5px solid;
-    border-color: blue;
-    float: left;
-    height: 50px;
-    width: 66%;
+    background-color: burlywood;
+    border: 3px solid aquamarine;
 }
-.CenterAlign{
-    border: 5px solid;
-    border-color: red;
-    float: center;
-    height: 50px;
-    width: 66%;
+.CenterAlign {
+background-color: silver;
+border: 3px solid yellowgreen;
 }
-.RightAlign{
-    border: 5px solid;
-    border-color: green;
-    float: right;
-    height: 50px;
-    width: 66%;
+.RightAlign {
+    background-color: azure;
+    border: 3px solid olivedrab;
 }
